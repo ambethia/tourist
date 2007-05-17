@@ -1,0 +1,16 @@
+= Tourist
+
+The Tourist plugin is like having a tour guide through the views of your Rails application.
+You'll see comments in your rhtml views like: 
+
+  <!-- BEGIN script/../config/../app/views/narwhal/index.rhtml {{{ -->
+
+It can really help find those pesky partials in a foreign app. To start using Tourist, in your
+environment.rb, just put something like:
+
+  Ambethia::Tourist.see! if RAILS_ENV == 'development'
+
+=== TODO
+
+ * Strip default template path from output (ex: script/../config/../app/views)
+ * Tests!
