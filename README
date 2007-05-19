@@ -3,7 +3,7 @@
 The Tourist plugin is like having a tour guide through the views of your Rails application.
 You'll see comments in your rhtml views like: 
 
-  <!-- BEGIN script/../config/../app/views/narwhal/index.rhtml {{{ -->
+  &gt;!-- BEGIN script/../config/../app/views/narwhal/index.rhtml {{{ --&lt;
 
 It can really help find those pesky partials in a foreign app. To start using Tourist, in your
 environment.rb, just put something like:
