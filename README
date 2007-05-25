@@ -1,5 +1,7 @@
 = Tourist
 
+Jason L Perry (http://ambethia.com)
+
 The Tourist plugin is like having a tour guide through the views of your Rails application.
 You'll see comments in your rhtml views like: 
 
